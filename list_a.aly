@@ -1,0 +1,28 @@
+{
+  LinearLayout;
+  orientation="vertical";
+  id="c";
+  paddingTop="10dp";
+  {
+    ListView;
+    id="lv";
+    layout_height="80%h";
+    padding="10dp";
+    layout_marginTop="2dp";
+    items={
+    };
+  };
+  {
+    LinearLayout;
+    layout_height="-1";
+    layout_width="-1";
+    gravity="bottom";
+    {
+      Button;
+      textColor="#FFFFFF";
+      text="全部下载";
+      layout_width="-1";
+      id="button";
+    };
+  };
+};
